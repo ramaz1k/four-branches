@@ -1,337 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./src/output.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotels</title>
+    <link rel="stylesheet" href="./src/output.css">
 </head>
-
 <body>
-  <header class=" lg:max-w-[1300px]  p-10 gap-100 w-[90%] m-auto flex justify-end ">
-    <div class="flex gap-10 ">
-
-      <p>Booking</p>
-      <p>Facilities</p>
-      <p>About Us</p>
-      <p>Location</p>
-      <p>Contact</p>
-    </div>
-    <div class="p-2 px-3 text-[white] rounded-2xl bg-[#24AB70]"><a href="./page.2.html">
-        <p>Login</p>
-      </a></div>
-  </header>
-  <main class="max-w-[1300px] w-[90%] m-auto ">
-    <section>
-
-      <div class="w-[100%] bg-[#F6FCF9] h-[700px] rounded-2xl flex grid grid-cols-1 lg:grid-cols-2 lg:grid items-center gap-10 p-10">
-        <div>
-        <p class="text-[34px] lg:text-[64px]">Find your perfect place to stay</p>
-        <p class="text-[20px] lg:mt-[20px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <div class="flex gap-3 items-center lg:mt-[20px]">
-          <img src="./images/Group 2.png" alt="">
-          <p>Watch video</p>
-        </div>
-        
-      </div>
-      <div>
-        <img src="./images/image (5).png" alt="">
-
-      </div>
-
-      
-      
-      
-      
-    </div>
-  </section>
-  <br>
-  <section>
-<div class="bg-gray-50 min-h-screen py-16 px-4 sm:px-6 lg:px-8 font-sans text-gray-800">
-  <div class="max-w-7xl mx-auto">
-    
-    <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between mb-12">
-      <div class="max-w-xl">
-        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-4">
-          Our most popular Hotels
-        </h2>
-        <p class="text-gray-500 text-sm leading-relaxed">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        </p>
-      </div>
-      <div class="mt-6 sm:mt-0">
-        <a href="#" class="inline-flex items-center justify-center px-6 py-2.5 text-sm font-medium text-emerald-600 bg-emerald-50 hover:bg-emerald-100 rounded-full transition-colors">
-          View All
-        </a>
-      </div>
-    </div>
-    <h1></h1>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      
-      <div class="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 flex flex-col justify-between">
-        <div>
-          <div class="aspect-[4/3] w-full bg-gray-200 flex items-center justify-center text-gray-400 text-sm font-medium">
-           <img src="./images/image (8).png" alt="">
-          </div>
-          <h1></h1>
-          <h1></h1>
-          <div class="p-6">
-            <span class="text-xs font-medium text-emerald-500 block mb-2">London NW8 7JT England</span>
-            <h3 class="text-xl font-bold text-gray-900 mb-4">Danubius Hotel Regents Park</h3>
-          </div>
-        </div>
-        <div class="px-6 pb-6 pt-2 border-t border-gray-50 flex items-center justify-between">
-          <span class="text-sm font-semibold text-gray-700">$200 Per Night</span>
-          <div class="flex items-center gap-1">
-            <div class="flex text-amber-400 text-xs">
-              <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-200">★</span>
+    <header class="max-w-[1280px] m-auto py-10 p-5 lg:py-10 h-[40px] flex justify-between items-center">
+        <h1 class="font-[900] text-[24px] lg:text-[36px] text-[#047C8D]">LogoHotels</h1>
+        <nav class="hidden lg:flex gap-[40px] text-[#222222]">
+            <p>Booking</p>
+            <p>Facilities</p>
+            <p>About Us</p>
+            <p>Location</p>
+            <p>Contact</p>
+        </nav>
+        <a href="" class="w-[76px] h-[40px] rounded-[35px] bg-[#24AB70] flex justify-center items-center text-[14px] text-white">Login</a>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="lg:hidden block w-[40px] h-[30px]">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+        </svg>
+    </header>
+    <section class="m-5 p-5 lg:p-0 relative max-w-[1280px] lg:h-[656px] m-auto rounded-t-[50px] bg-[#24AB700A] flex gap-[20px] flex-col lg:flex-row lg:justify-between">
+        <div class="p-[30px] lg:p-[60px] flex flex-col gap-[30px] items-center lg:items-start lg:gap-[40px]">
+            <h1 class="text-[64px] font-[600] text-center lg:text-start">Find your perfect place to stay</h1>
+            <p class="text-[20px] text-[#555555] text-center lg:text-start">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <div class="flex gap-[20px] items-center justify-start">
+                <img class="w-[56px] h-[56px]" src="./Images/Group 2.png" alt="">
+                <h3 class="text-[20px] font-[600] text-[#222222]">Watch video</h3>
             </div>
-            <span class="text-xs font-bold text-gray-500 ml-1">4.8</span>
-          </div>
         </div>
-      </div>
-
-      <div class="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 flex flex-col justify-between">
-        <div>
-          <div class="aspect-[4/3] w-full bg-gray-200 flex items-center justify-center text-gray-400 text-sm font-medium">
-            <img src="./images/image (7).png" alt="">
-          </div>
-          <div class="p-6">
-            <span class="text-xs font-medium text-emerald-500 block mb-2">London NW8 7JT England</span>
-            <h3 class="text-xl font-bold text-gray-900 mb-4">The Resident Soho</h3>
-          </div>
-        </div>
-        <div class="px-6 pb-6 pt-2 border-t border-gray-50 flex items-center justify-between">
-          <span class="text-sm font-semibold text-gray-700">$200 Per Night</span>
-          <div class="flex items-center gap-1">
-            <div class="flex text-amber-400 text-xs">
-              <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-200">★</span>
+        <img class="rounded-[30px] lg:w-[640px] lg:h-[656px]" src="./Images/image (19).png" alt="">
+                
+        <div class="hidden lg:flex absolute top-[500px] left-[150px] lg:flex-row items-center pl-[30px] w-[1000px] h-[100px] bg-white rounded-[280px] justify-between" style="box-shadow: 0px 22px 38px #00221314;">
+            <div class="border border-b border-[#E8E8E8] lg:border-none flex w-[125px] h-[48px] justify-between items-start">
+                <img class="w-[24px] mt-1.5 h-[24px]" src="./Images/pin 1.png" alt="">
+                <div class="flex flex-col gap-1.5">
+                    <p class="text-[20px] text-[#222222]">Location</p>
+                    <p class="text-[14px] text-[#555555]">United States</p>
+                </div>
             </div>
-            <span class="text-xs font-bold text-gray-500 ml-1">4.8</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 flex flex-col justify-between">
-        <div>
-          <div class="aspect-[4/3] w-full bg-gray-200 flex items-center justify-center text-gray-400 text-sm font-medium">
-<img src="./images/image (6).png" alt="">          </div>
-          <div class="p-6">
-            <span class="text-xs font-medium text-emerald-500 block mb-2">London NW8 7JT England</span>
-            <h3 class="text-xl font-bold text-gray-900 mb-4">London Bridge Hotel</h3>
-          </div>
-        </div>
-        <div class="px-6 pb-6 pt-2 border-t border-gray-50 flex items-center justify-between">
-          <span class="text-sm font-semibold text-gray-700">$200 Per Night</span>
-          <div class="flex items-center gap-1">
-            <div class="flex text-amber-400 text-xs">
-              <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-200">★</span>
+            <img class="h-[60px]" src="./Images/Line 3.png" alt="">
+            <div class="border border-b border-[#E8E8E8] lg:border-none flex w-[125px] h-[48px] justify-between items-start">
+                <img class="w-[24px] mt-1.5 h-[24px]" src="./Images/calendar 1.png" alt="">
+                <div class="flex flex-col gap-1.5">
+                    <p class="text-[20px] text-[#222222]">Chack in</p>
+                    <p class="text-[14px] text-[#555555]">10 Jun 2021</p>
+                </div>
             </div>
-            <span class="text-xs font-bold text-gray-500 ml-1">4.8</span>
-          </div>
+            <img class="h-[60px]" src="./Images/Line 3.png" alt="">
+            <div class="border border-b border-[#E8E8E8] lg:border-none flex w-[125px] h-[48px] justify-between items-start">
+                <img class="w-[24px] mt-1.5 h-[24px]" src="./Images/calendar 1.png" alt="">
+                <div class="flex flex-col gap-1.5">
+                    <p class="text-[20px] text-[#222222]">Chack out</p>
+                    <p class="text-[14px] text-[#555555]">15 Jun 2021</p>
+                </div>
+            </div>
+            <img class="h-[60px]" src="./Images/Line 3.png" alt="">
+            <div class="border border-b border-[#E8E8E8] lg:border-none flex w-[125px] h-[48px] justify-between items-start">
+                <img class="w-[24px] mt-1.5 h-[24px]" src="./Images/person 1.png" alt="">
+                <div class="flex flex-col gap-1.5">
+                    <p class="text-[20px] text-[#222222]">Rooms for</p>
+                    <p class="text-[12px] text-[#555555]">1 room, 2 guests</p>
+                </div>
+            </div>
+            <div class="w-[200px] h-[100px] flex rounded-[280px] bg-[#24AB70] text-white flex justify-center gap-[10px] items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                </svg>
+                <input class="w-[72px] h-[24px] text-[18px] text-white" type="text" placeholder="Search...">
+            </div>
         </div>
-      </div>
+    </section>
 
-    </div>
-  </div>
-</div>
-  </section>
-
-
-  <section>
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-  <div class="bg-[#f4f9f8] rounded-3xl overflow-hidden grid grid-cols-1 md:grid-cols-2 min-h-[450px]">
-    
-    <div class="w-full h-64 md:h-full bg-gray-200 flex items-center justify-center text-gray-400 text-sm font-medium">
-     <img src="./images/image (9).png" alt="">
-    </div>
-
-    <div class="p-8 sm:p-12 lg:p-16 flex flex-col justify-center items-start">
-      <h2 class="text-3xl font-bold text-gray-950 mb-6 tracking-tight">
-        Discover our History
-      </h2>
-      
-      <div class="space-y-4 text-gray-500 text-sm leading-relaxed mb-8 max-w-xl">
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-        </p>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        </p>
-      </div>
-
-      <a href="#" class="inline-flex items-center justify-center px-8 py-3.5 text-sm font-medium text-white bg-emerald-600 hover:bg-emerald-700 rounded-full shadow-sm transition-colors">
-        Explore More
-      </a>
-    </div>
-
-  </div>
-</div>
-  </section>
-  <br>
-  <section>
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 relative">
-  
-  <button class="absolute left-1 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-white shadow-md border border-gray-100 flex items-center justify-center text-gray-400 hover:text-emerald-600 transition-colors focus:outline-none">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-    </svg>
-  </button>
-
-  <button class="absolute right-1 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-white shadow-md border border-gray-100 flex items-center justify-center text-emerald-600 hover:bg-gray-50 transition-colors focus:outline-none">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-    </svg>
-  </button>
-
-  <div class="bg-[#fbfcfa] rounded-3xl overflow-hidden grid grid-cols-1 md:grid-cols-12 min-h-[400px] border border-gray-50">
-    
-    <div class="p-8 sm:p-12 lg:p-16 md:col-span-7 flex flex-col justify-center">
-      
-      <div class="relative mb-8">
-        <p class="text-gray-500 text-sm leading-relaxed inline">
-          <span class="text-emerald-500 text-2xl font-serif font-bold inline-block mr-1 leading-none select-none">“</span>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          <span class="text-emerald-500 text-2xl font-serif font-bold inline-block ml-1 leading-none select-none">”</span>
-        </p>
-      </div>
-
-      <div>
-        <h4 class="text-xl font-bold text-gray-900 mb-1">Alexandr Ivchenko</h4>
-        <p class="text-xs text-gray-400 font-medium tracking-wide">Businessman</p>
-      </div>
-
-    </div>
-
-    <div class="md:col-span-5 w-full h-64 md:h-full bg-gray-200 flex items-center justify-center text-gray-400 text-sm font-medium">
-      <img src="./images/image (10).png" alt="">
-    </div>
-
-  </div>
-</div>
-  </section>
-<br>
-  <section>
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-  <div class="relative rounded-3xl overflow-hidden bg-gray-200 min-h-[500px] flex items-end p-4 sm:p-8 lg:p-12">
-    
-    <div class="absolute inset-0 bg-gray-300 flex items-center justify-center text-gray-500 text-sm font-medium select-none">
-      <img src="./images/map.png" alt="">
-    </div>
-
-    <div class="relative w-full bg-white rounded-3xl shadow-lg p-8 lg:p-12 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center z-10">
-      
-      <div class="lg:col-span-7">
-        <h3 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 tracking-tight">
-          Location of our Hotelos
-        </h3>
-        <p class="text-gray-500 text-sm leading-relaxed max-w-xl">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-        </p>
-      </div>
-
-      <div class="lg:col-span-5 w-full">
-        <form class="relative flex items-center bg-[#f7f9f8] rounded-full p-2 border border-gray-100" onSubmit="event.preventDefault();">
-          <input 
-            type="email" 
-            placeholder="Enter your email" 
-            class="w-full bg-transparent pl-5 pr-32 py-3 text-sm text-gray-800 placeholder-gray-400 focus:outline-none"
-            required
-          />
-          <button 
-            type="submit" 
-            class="absolute right-2 top-2 bottom-2 px-8 bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-medium rounded-full shadow-sm transition-colors"
-          >
-            Contact
-          </button>
-        </form>
-      </div>
-
-    </div>
-
-  </div>
-</div>
-  </section>
-  <footer class="bg-white pt-16 pb-12 border-t border-gray-100 font-sans text-gray-600">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-12">
-      
-      <div class="lg:col-span-5 flex flex-col justify-between">
-        <div class="max-w-sm mb-6 lg:mb-0">
-          <p class="text-sm text-gray-500 leading-relaxed">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          </p>
+    <section class="p-5 relative max-w-[1280px] lg:h-[656px] mx-auto mt-[100px] flex gap-[30px] flex-col">
+        <h1 class="text-[40px] font-[600] text-center lg:text-start">Our most popular Hotels</h1>
+        <div class="w-full flex flex-col lg:flex-row items-center gap-[20px] lg:justify-between lg:items-center">
+            <p class="text-[16px] text-[#555555] lg:w-[400px] text-center lg:text-start">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <button class="w-[109px] h-[40px] bg-[#24AB701A] rounded-[280px] text-[#24AB70]">View All</button>
         </div>
-        
-        <div class="flex items-center gap-4">
-          <a href="#" class="w-6 h-6 flex items-center justify-center text-blue-600 hover:opacity-80 transition-opacity" aria-label="Facebook">
-            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
-              <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.8z"/>
-            </svg>
-          </a>
-          <a href="#" class="w-6 h-6 flex items-center justify-center text-pink-600 hover:opacity-80 transition-opacity" aria-label="Instagram">
-            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
-              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
-            </svg>
-          </a>
-          <a href="#" class="w-6 h-6 flex items-center justify-center text-red-500 hover:opacity-80 transition-opacity" aria-label="Google">
-            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
-              <path d="M12.24 10.285V13.4h6.887c-.275 1.565-1.88 4.604-6.887 4.604-4.33 0-7.866-3.577-7.866-8s3.536-8 7.866-8c2.46 0 4.105 1.025 5.047 1.926l2.427-2.334C17.955 2.192 15.34 1 12.24 1 6.033 1 1 6.033 1 12.24s5.033 11.24 11.24 11.24c6.478 0 10.793-4.537 10.793-10.986 0-.743-.082-1.32-.179-1.871H12.24z"/>
-            </svg>
-          </a>
+        <div class="w-full  lg:w-[1280px] flex flex-col lg:flex-row gap-[20px]">
+            <div class="w-full lg:w-[411px] h-[450px] rounded-[16px] bg-[#FAFAFA] flex flex-col" style="box-shadow: 0px 22px 38px #00221314;">
+                <img class="w-full" src="./Images/image (20).png" alt="">
+                <div class="m-[15px] flex flex-col gap-[10px]">
+                    <p class="text-[12px] text-[#24AB70]">London NW8 7JT England</p>
+                    <p class="text-[24px] font-[600]">Danubius Hotel Regents Park</p>
+                    <div class="flex gap-[20px]">
+                        <p class="text-[16px]">$200 Par Night</p>
+                        <img class="h-[20px]" src="./Images/Line 3.png" alt="">
+                        <img class="h-[18px]" src="./Images/Group 10.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="w-full lg:w-[411px] h-[450px] rounded-[16px] bg-[#FAFAFA] flex flex-col" style="box-shadow: 0px 22px 38px #00221314;">
+                <img class="w-full" src="./Images/image (21).png" alt="">
+                <div class="m-[15px] flex flex-col gap-[10px]">
+                    <p class="text-[12px] text-[#24AB70]">London NW8 7JT England</p>
+                    <p class="text-[24px] font-[600]">The Resident Soho</p>
+                    <div class="flex gap-[20px]">
+                        <p class="text-[16px]">$200 Par Night</p>
+                        <img class="h-[20px]" src="./Images/Line 3.png" alt="">
+                        <img class="h-[18px]" src="./Images/Group 10.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="w-full lg:w-[411px] h-[450px] rounded-[16px] bg-[#FAFAFA] flex flex-col" style="box-shadow: 0px 22px 38px #00221314;">
+                <img class="w-full" src="./Images/image (22).png" alt="">
+                <div class="m-[15px] flex flex-col gap-[10px]">
+                    <p class="text-[12px] text-[#24AB70]">London NW8 7JT England</p>
+                    <p class="text-[24px] font-[600]">London Bridge Hotel</p>
+                    <div class="flex gap-[20px]">
+                        <p class="text-[16px]">$200 Par Night</p>
+                        <img class="h-[20px]" src="./Images/Line 3.png" alt="">
+                        <img class="h-[18px]" src="./Images/Group 10.png" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </section>
 
-      <div class="lg:col-span-2 lg:col-start-7">
-        <h5 class="text-lg font-semibold text-gray-800 mb-4 tracking-wide">Home</h5>
-        <ul class="space-y-3 text-sm font-medium">
-          <li><a href="#" class="hover:text-emerald-600 transition-colors">Booking</a></li>
-          <li><a href="#" class="hover:text-emerald-600 transition-colors">Facilities</a></li>
-          <li><a href="#" class="hover:text-emerald-600 transition-colors">Location</a></li>
-          <li><a href="#" class="hover:text-emerald-600 transition-colors">Contact</a></li>
-        </ul>
-      </div>
+    <section class="w-full p-5 lg:w-[1280px] m-auto mt-[100px] flex flex-col lg:flex-row lg:justify-between gap-[30px]">
+        <div class="w-full lg:w-[411px] flex flex-col gap-[30px] items-center lg:items-start">
+            <h1 class="text-[40px] font-[600] text-center lg:text-start">We do our best facilities provide you</h1>
+            <p class="text-[16px] text-[#555555] lg:w-[400px] text-center lg:text-start">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+            <button class="w-[164px] h-[56px] rounded-[35px] bg-[#24AB70] flex justify-center items-center text-[14px] text-white">Contact Now</button>
+        </div>
+        <div class="w-full lg:w-[840px] grid grid-cols-2 lg:grid-cols-4 gap-[20px]">
+            <div class="h-[150px] lg:h-[193px] rounded-[8px] border border-[#E8E8E8] flex flex-col items-center justify-center gap-5">
+                <img class="w-[40px]" src="./Images/workspace 1.png" alt="">
+                <p class="text-[#222222]">Private Workspace</p>
+            </div>
+            <div class="h-[150px] lg:h-[193px] rounded-[8px] border border-[#E8E8E8] flex flex-col items-center justify-center gap-5">
+                <img class="w-[40px]" src="./Images/parking-area (1) 1.png" alt="">
+                <p class="text-[#222222]">Parking Area</p>
+            </div>
+            <div class="h-[150px] lg:h-[193px] rounded-[8px] border border-[#E8E8E8] flex flex-col items-center justify-center gap-5">
+                <img class="w-[40px]" src="./Images/cappuccino 1.png" alt="">
+                <p class="text-[#222222]">Breakfast</p>
+            </div>
+            <div class="h-[150px] lg:h-[193px] rounded-[8px] border border-[#E8E8E8] flex flex-col items-center justify-center gap-5">
+                <img class="w-[40px]" src="./Images/wifi (2) 1.png" alt="">
+                <p class="text-[#222222]">Free Wifi</p>
+            </div>
+            <div class="h-[150px] lg:h-[193px] rounded-[8px] border border-[#E8E8E8] flex flex-col items-center justify-center gap-5">
+                <img class="w-[40px]" src="./Images/flash (1) 1.png" alt="">
+                <p class="text-[#222222]">Free Electricity</p>
+            </div>
+            <div class="h-[150px] lg:h-[193px] rounded-[8px] border border-[#E8E8E8] flex flex-col items-center justify-center gap-5">
+                <img class="w-[40px]" src="./Images/swimmer 1.png" alt="">
+                <p class="text-[#222222]">Swimming Pool</p>
+            </div>
+            <div class="h-[150px] lg:h-[193px] rounded-[8px] border border-[#E8E8E8] flex flex-col items-center justify-center gap-5">
+                <img class="w-[40px]" src="./Images/dumbell 1.png" alt="">
+                <p class="text-[#222222]">Exercise Space</p>
+            </div>
+            <div class="h-[150px] lg:h-[193px] rounded-[8px] border border-[#E8E8E8] flex flex-col items-center justify-center gap-5">
+                <img class="w-[40px]" src="./Images/ellipsis 1.png" alt="">
+                <p class="text-[#222222]">Other Service</p>
+            </div>
+        </div>
+    </section>
 
-      <div class="lg:col-span-2">
-        <h5 class="text-lg font-semibold text-gray-800 mb-4 tracking-wide">Help</h5>
-        <ul class="space-y-3 text-sm font-medium">
-          <li><a href="#" class="hover:text-emerald-600 transition-colors">About Us</a></li>
-          <li><a href="#" class="hover:text-emerald-600 transition-colors">Help center</a></li>
-          <li><a href="#" class="hover:text-emerald-600 transition-colors">Privacy policy</a></li>
-          <li><a href="#" class="hover:text-emerald-600 transition-colors">FAQs</a></li>
-        </ul>
-      </div>
+    <section class="m-5 p-5 lg:p-0 relative max-w-[1280px] lg:h-[520px] m-auto mt-[100px] rounded-[16px] bg-[#F4FBF8] flex gap-[20px] lg:gap-[50px] flex-col lg:items-center lg:flex-row">
+        <img class="lg:w-[628px] lg:h-[520px]" src="./Images/image (23).png" alt="">
+        <div class="p-[30px] flex flex-col gap-[30px] items-center lg:items-start lg:gap-[40px]">
+            <h1 class="text-[40px] font-[600] text-center lg:text-start">Discover our History</h1>
+            <p class="text-[20px] text-[#555555] text-center lg:text-start">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
+            <p class="text-[20px] text-[#555555] text-center lg:text-start">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <button class="w-[167px] h-[56px] rounded-[35px] bg-[#24AB70] flex justify-center items-center text-[14px] text-white">Explore More</button>
+        </div>              
+    </section>
 
-      <div class="lg:col-span-2">
-        <h5 class="text-lg font-semibold text-gray-800 mb-4 tracking-wide">Get the app</h5>
-        <ul class="space-y-3 text-sm font-medium">
-          <li><a href="#" class="hover:text-emerald-600 transition-colors">iOS app</a></li>
-          <li><a href="#" class="hover:text-emerald-600 transition-colors">Android app</a></li>
-        </ul>
-      </div>
+    <section class="m-5 p-5 lg:p-0 relative max-w-[1280px] lg:h-[400px] m-auto mt-[100px] rounded-[16px] bg-[#FAFAFA] flex gap-[20px] lg:gap-[50px] flex-col lg:items-center lg:flex-row">
+        <div class="p-[30px] lg:px-[80px] flex flex-col gap-[20px] items-center lg:items-start lg:gap-[0px]">
+            <p class="text-[16px] text-[#555555] text-center flex flex-col lg:text-start"><samp class="text-[60px] font-bold text-[#24AB70]">"</samp>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry.<samp class="text-[60px] font-bold text-[#24AB70] text-center lg:text-end">"</samp></p>
+            <div class="flex flex-col gap-[10px]">
+                <h1 class="text-[24px] font-[600] text-center lg:text-start">Alexandr Ivchenko</h1>
+                <p class="text-[16px] text-[#555555] text-center lg:text-start">Businessman</p>
+            </div>
+        </div>              
+        <img class="lg:w-[411px] lg:h-[400px]" src="./Images/Mask Group (6).png" alt="">
+    </section>
 
-    </div>
-  </div>
-</footer>
-<hr>
-<h1>
-  <hr>
-  
-</h1>
+    <section class="w-full p-5 lg:w-[1280px] rounded-[16px] m-auto mt-[100px] relative">
+        <img class="w-full" src="./Images/map (1).png" alt="">
+        <img class="hidden lg:block absolute top-[200px] left-[830px]" src="./Images/Ellipse 5.png" alt="">
+        <img class="hidden lg:block absolute top-[260px] left-[890px]" src="./Images/Ellipse 6 (2).png" alt="">
+        <div class="w-full lg:absolute lg:bottom-[40px] lg:left-[40px] p-[20px] lg:p-[40px] lg:w-[1194px] lg:h-[200px] rounded-[16px] bg-white gap-[20px] flex flex-col lg:flex-row lg:justify-between lg:items-end">
+            <div class="w-full lg:w-[510px] flex flex-col gap-[20px]">
+                <h1 class="text-[36px] font-[600] text-center lg:text-start">Location of our Hotelos</h1>
+                <p class="text-[16px] text-[#555555] text-center lg:text-start">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's  </p>
+            </div>
+            <div class="w-full lg:w-[436px] h-[56px] flex bg-[#FAFAFA] rounded-[50px]">
+                <input class="px-[25px] py-[15px] " type="text" placeholder="Enter your email">
+                <button class="w-[124px] h-[56px] rounded-[35px] bg-[#24AB70] flex justify-center items-center text-[14px] text-white">Contact</button>
+            </div>
+        </div>
+    </section>
 
-
-
-
-  </main>
-
-
-
-
-
-
-
+    <footer class="w-full p-5 lg:w-[1062px] m-auto mt-[100px] lg:h-[208px] flex flex-col gap-[40px] lg:flex-row lg:justify-between items-center">
+        <div class="flex flex-col gap-[20px] items-center lg:items-start lg:w-[264px]">
+            <p class="text-[16px] text-[#555555] text-center lg:text-start">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <div class="flex gap-[30px]">
+                <img class="w-[16px]" src="./Images/Group 23.png" alt="">
+                <img class="w-[16px]" src="./Images/Group 24.png" alt="">
+                <img class="w-[16px]" src="./Images/search 1.png" alt="">
+            </div>
+        </div>
+        <div class="flex gap-[100px] lg:gap-[150px]">
+            <div class="flex flex-col text-center lg:text-start gap-[20px]">
+                <p class="text-[24px] text-[#222222]">Home</p>
+                <p class="text-[16px] text-[#222222]">Booking</p>
+                <p class="text-[16px] text-[#222222]">Facilities</p>
+                <p class="text-[16px] text-[#222222]">Location</p>
+                <p class="text-[16px] text-[#222222]">Contact</p>
+            </div>
+            <div class="flex flex-col text-center lg:text-start gap-[20px]">
+                <p class="text-[24px] text-[#222222]">Help</p>
+                <p class="text-[16px] text-[#222222]">About Us</p>
+                <p class="text-[16px] text-[#222222]">Help center</p>
+                <p class="text-[16px] text-[#222222]">Privacy policy</p>
+                <p class="text-[16px] text-[#222222]">FAQs</p>
+            </div>
+        </div>
+        <div class="flex flex-col text-center lg:text-start gap-[20px]">
+                <p class="text-[24px] text-[#222222]">Get the app</p>
+                <p class="text-[16px] text-[#222222]">iOS app</p>
+                <p class="text-[16px] text-[#222222]">Android app</p>
+        </div>
+    </footer>
 </body>
-
 </html>
